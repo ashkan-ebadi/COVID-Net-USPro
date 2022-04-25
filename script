@@ -1,0 +1,40 @@
+#!/bin/bash
+
+# Bash script for running multiple experiments with different settings. 
+
+shots=(5 10 20 30 40 50 75 100 150 200)
+epochs=(10)
+probTypes=(3 4)
+models=(2 3 4)
+# LUSS=(0 1)
+
+for shot in "${shots[@]}"; do
+    if ((shot <= 30));
+    then
+        ((batch_size = 70))
+        # echo $batch_size
+    elif ((shot <= 50));
+    then 
+        ((batch_size = 110)) 
+    elif ((shot <= 100));
+    then
+        ((batch_size = 210))
+    elif ((shot <= 200));
+    then
+        ((batch_size = 420))
+    elif ((shot <= 300));
+    then
+        ((batch_size = 610))
+    else
+        ((batch_size = 820))
+    fi
+    for epoch in "${epochs[@]}"; do
+        for probType in "${probTypes[@]}"; do
+            for model in "${models[@]}"; do
+                out_file="probType-${probType}-model-${model}-shots-${shot}.txt"
+                echo $out_file
+                time python3 experiments.py --FSlist $probType,$shot,$shot,$epoch,200,$probType,$shot,$shot,200 --classificationType $probType --model $model --LUSS 1 --bs $batch_size > "$out_file"
+            done 
+        done 
+    done
+done
