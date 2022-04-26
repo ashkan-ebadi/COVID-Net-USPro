@@ -1,0 +1,48 @@
+1) train_n_way, 2) train_n_support, 3) train_n_query, 4) train_epoch, 5) train_episode 6) test_n_way 7) test_n_support 8) test_n_query 9) test_episode
+Namespace(bs=70, model=4, FSlist='2,20,20,10,200,2,20,20,200', classificationType=2, LUSS=1)
+Train data size:  (90892, 224, 224, 3) (90892,) Test data size:  (10156, 224, 224, 3) (10156,)
+Epoch 1 train:   0%|          | 0/200 [00:00<?, ?it/s]
+Epoch 1 -- Loss: 0.1186 Acc: 0.9606
+class 0 -- Precision: 0.9635 Recall: 0.9597
+class 1 -- Precision: 0.9611 Recall: 0.9615
+Epoch 2 train:   0%|          | 0/200 [00:00<?, ?it/s]
+Epoch 2 -- Loss: 0.0388 Acc: 0.9891
+class 0 -- Precision: 0.9908 Recall: 0.9880
+class 1 -- Precision: 0.9887 Recall: 0.9902
+Epoch 3 train:   0%|          | 0/200 [00:00<?, ?it/s]
+Epoch 3 -- Loss: 0.0136 Acc: 0.9956
+class 0 -- Precision: 0.9957 Recall: 0.9957
+class 1 -- Precision: 0.9960 Recall: 0.9955
+Epoch 4 train:   0%|          | 0/200 [00:00<?, ?it/s]
+INFO: Early stopping counter 1 of 3
+Epoch 4 -- Loss: 0.0141 Acc: 0.9961
+class 0 -- Precision: 0.9965 Recall: 0.9960
+class 1 -- Precision: 0.9962 Recall: 0.9962
+Epoch 5 train:   0%|          | 0/200 [00:00<?, ?it/s]
+INFO: Early stopping counter 2 of 3
+Epoch 5 -- Loss: 0.0153 Acc: 0.9957
+class 0 -- Precision: 0.9957 Recall: 0.9960
+class 1 -- Precision: 0.9962 Recall: 0.9955
+Epoch 6 train:   0%|          | 0/200 [00:00<?, ?it/s]
+Epoch 6 -- Loss: 0.0047 Acc: 0.9988
+class 0 -- Precision: 0.9988 Recall: 0.9988
+class 1 -- Precision: 0.9988 Recall: 0.9988
+Epoch 7 train:   0%|          | 0/200 [00:00<?, ?it/s]
+INFO: Early stopping counter 1 of 3
+Epoch 7 -- Loss: 0.0173 Acc: 0.9957
+class 0 -- Precision: 0.9964 Recall: 0.9952
+class 1 -- Precision: 0.9956 Recall: 0.9962
+Epoch 8 train:   0%|          | 0/200 [00:00<?, ?it/s]
+INFO: Early stopping counter 2 of 3
+Epoch 8 -- Loss: 0.0101 Acc: 0.9970
+class 0 -- Precision: 0.9962 Recall: 0.9980
+class 1 -- Precision: 0.9981 Recall: 0.9960
+Epoch 9 train:   0%|          | 0/200 [00:00<?, ?it/s]
+INFO: Early stopping counter 3 of 3
+INFO: Early stopping
+  0%|          | 0/200 [00:00<?, ?it/s]
+-- Loss: 0.0125 Acc: 0.9967
+class 0 -- Precision: 0.9950 Recall: 0.9987
+class 1 -- Precision: 0.9988 Recall: 0.9947
+[[3995.    5.]
+ [  21. 3979.]]

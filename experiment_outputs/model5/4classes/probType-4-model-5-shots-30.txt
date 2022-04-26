@@ -1,0 +1,60 @@
+1) train_n_way, 2) train_n_support, 3) train_n_query, 4) train_epoch, 5) train_episode 6) test_n_way 7) test_n_support 8) test_n_query 9) test_episode
+Namespace(bs=70, model=5, FSlist='4,30,30,10,200,4,30,30,200', classificationType=4, LUSS=1)
+Train data size:  (90892, 224, 224, 3) (90892,) Test data size:  (10156, 224, 224, 3) (10156,)
+Epoch 1 train:   0%|          | 0/200 [00:00<?, ?it/s]
+Epoch 1 -- Loss: 2.5462 Acc: 0.2609
+class 0 -- Precision: 0.2635 Recall: 0.2563
+class 1 -- Precision: 0.2611 Recall: 0.2407
+class 2 -- Precision: 0.2592 Recall: 0.2683
+class 3 -- Precision: 0.2634 Recall: 0.2783
+Epoch 2 train:   0%|          | 0/200 [00:00<?, ?it/s]
+Epoch 2 -- Loss: 1.3864 Acc: 0.2461
+class 0 -- Precision: 0.2347 Recall: 0.2332
+class 1 -- Precision: 0.2484 Recall: 0.2510
+class 2 -- Precision: 0.2456 Recall: 0.2437
+class 3 -- Precision: 0.2515 Recall: 0.2565
+Epoch 3 train:   0%|          | 0/200 [00:00<?, ?it/s]
+Epoch 3 -- Loss: 1.3863 Acc: 0.2449
+class 0 -- Precision: 0.2424 Recall: 0.2382
+class 1 -- Precision: 0.2473 Recall: 0.2460
+class 2 -- Precision: 0.2426 Recall: 0.2472
+class 3 -- Precision: 0.2430 Recall: 0.2482
+Epoch 4 train:   0%|          | 0/200 [00:00<?, ?it/s]
+Epoch 4 -- Loss: 1.3863 Acc: 0.2496
+class 0 -- Precision: 0.2510 Recall: 0.2515
+class 1 -- Precision: 0.2549 Recall: 0.2517
+class 2 -- Precision: 0.2387 Recall: 0.2490
+class 3 -- Precision: 0.2442 Recall: 0.2462
+Epoch 5 train:   0%|          | 0/200 [00:00<?, ?it/s]
+Epoch 5 -- Loss: 1.3863 Acc: 0.2497
+class 0 -- Precision: 0.2453 Recall: 0.2437
+class 1 -- Precision: 0.2457 Recall: 0.2525
+class 2 -- Precision: 0.2514 Recall: 0.2590
+class 3 -- Precision: 0.2484 Recall: 0.2435
+Epoch 6 train:   0%|          | 0/200 [00:00<?, ?it/s]
+INFO: Early stopping counter 1 of 3
+Epoch 6 -- Loss: 1.3863 Acc: 0.2477
+class 0 -- Precision: 0.2525 Recall: 0.2510
+class 1 -- Precision: 0.2462 Recall: 0.2360
+class 2 -- Precision: 0.2441 Recall: 0.2478
+class 3 -- Precision: 0.2489 Recall: 0.2560
+Epoch 7 train:   0%|          | 0/200 [00:00<?, ?it/s]
+INFO: Early stopping counter 2 of 3
+Epoch 7 -- Loss: 1.3863 Acc: 0.2541
+class 0 -- Precision: 0.2509 Recall: 0.2492
+class 1 -- Precision: 0.2561 Recall: 0.2545
+class 2 -- Precision: 0.2614 Recall: 0.2638
+class 3 -- Precision: 0.2641 Recall: 0.2488
+Epoch 8 train:   0%|          | 0/200 [00:00<?, ?it/s]
+INFO: Early stopping counter 3 of 3
+INFO: Early stopping
+  0%|          | 0/200 [00:00<?, ?it/s]
+-- Loss: 1.3863 Acc: 0.2501
+class 0 -- Precision: 0.2525 Recall: 0.2568
+class 1 -- Precision: 0.2548 Recall: 0.2502
+class 2 -- Precision: 0.2487 Recall: 0.2595
+class 3 -- Precision: 0.2451 Recall: 0.2340
+[[1541. 1511. 1545. 1403.]
+ [1522. 1501. 1532. 1445.]
+ [1557. 1486. 1557. 1400.]
+ [1517. 1525. 1554. 1404.]]

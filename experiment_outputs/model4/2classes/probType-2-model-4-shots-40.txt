@@ -1,0 +1,43 @@
+1) train_n_way, 2) train_n_support, 3) train_n_query, 4) train_epoch, 5) train_episode 6) test_n_way 7) test_n_support 8) test_n_query 9) test_episode
+Namespace(bs=110, model=4, FSlist='2,40,40,10,200,2,40,40,200', classificationType=2, LUSS=1)
+Train data size:  (90892, 224, 224, 3) (90892,) Test data size:  (10156, 224, 224, 3) (10156,)
+Epoch 1 train:   0%|          | 0/200 [00:00<?, ?it/s]
+Epoch 1 -- Loss: 0.0669 Acc: 0.9745
+class 0 -- Precision: 0.9754 Recall: 0.9752
+class 1 -- Precision: 0.9747 Recall: 0.9737
+Epoch 2 train:   0%|          | 0/200 [00:00<?, ?it/s]
+Epoch 2 -- Loss: 0.0124 Acc: 0.9961
+class 0 -- Precision: 0.9963 Recall: 0.9960
+class 1 -- Precision: 0.9961 Recall: 0.9962
+Epoch 3 train:   0%|          | 0/200 [00:00<?, ?it/s]
+INFO: Early stopping counter 1 of 3
+Epoch 3 -- Loss: 0.0132 Acc: 0.9951
+class 0 -- Precision: 0.9957 Recall: 0.9945
+class 1 -- Precision: 0.9946 Recall: 0.9956
+Epoch 4 train:   0%|          | 0/200 [00:00<?, ?it/s]
+Epoch 4 -- Loss: 0.0047 Acc: 0.9987
+class 0 -- Precision: 0.9989 Recall: 0.9985
+class 1 -- Precision: 0.9985 Recall: 0.9989
+Epoch 5 train:   0%|          | 0/200 [00:00<?, ?it/s]
+Epoch 5 -- Loss: 0.0022 Acc: 0.9995
+class 0 -- Precision: 0.9996 Recall: 0.9994
+class 1 -- Precision: 0.9994 Recall: 0.9996
+Epoch 6 train:   0%|          | 0/200 [00:00<?, ?it/s]
+INFO: Early stopping counter 1 of 3
+Epoch 6 -- Loss: 0.0076 Acc: 0.9976
+class 0 -- Precision: 0.9974 Recall: 0.9979
+class 1 -- Precision: 0.9979 Recall: 0.9974
+Epoch 7 train:   0%|          | 0/200 [00:00<?, ?it/s]
+INFO: Early stopping counter 2 of 3
+Epoch 7 -- Loss: 0.0048 Acc: 0.9985
+class 0 -- Precision: 0.9983 Recall: 0.9987
+class 1 -- Precision: 0.9988 Recall: 0.9982
+Epoch 8 train:   0%|          | 0/200 [00:00<?, ?it/s]
+INFO: Early stopping counter 3 of 3
+INFO: Early stopping
+  0%|          | 0/200 [00:00<?, ?it/s]
+-- Loss: 0.0013 Acc: 0.9996
+class 0 -- Precision: 0.9993 Recall: 0.9999
+class 1 -- Precision: 0.9999 Recall: 0.9992
+[[7.999e+03 1.000e+00]
+ [6.000e+00 7.994e+03]]

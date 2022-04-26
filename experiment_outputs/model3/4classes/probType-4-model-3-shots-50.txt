@@ -1,0 +1,73 @@
+1) train_n_way, 2) train_n_support, 3) train_n_query, 4) train_epoch, 5) train_episode 6) test_n_way 7) test_n_support 8) test_n_query 9) test_episode
+Namespace(bs=110, model=3, FSlist='4,50,50,10,200,4,50,50,200', classificationType=4, LUSS=1)
+Train data size:  (90892, 224, 224, 3) (90892,) Test data size:  (10156, 224, 224, 3) (10156,)
+Epoch 1 train:   0%|          | 0/200 [00:00<?, ?it/s]
+Epoch 1 -- Loss: 0.3133 Acc: 0.8838
+class 0 -- Precision: 0.8851 Recall: 0.9005
+class 1 -- Precision: 0.8256 Recall: 0.8209
+class 2 -- Precision: 0.9013 Recall: 0.8910
+class 3 -- Precision: 0.9300 Recall: 0.9229
+Epoch 2 train:   0%|          | 0/200 [00:00<?, ?it/s]
+Epoch 2 -- Loss: 0.1294 Acc: 0.9528
+class 0 -- Precision: 0.9554 Recall: 0.9681
+class 1 -- Precision: 0.9295 Recall: 0.9243
+class 2 -- Precision: 0.9524 Recall: 0.9479
+class 3 -- Precision: 0.9777 Recall: 0.9708
+Epoch 3 train:   0%|          | 0/200 [00:00<?, ?it/s]
+Epoch 3 -- Loss: 0.1011 Acc: 0.9623
+class 0 -- Precision: 0.9700 Recall: 0.9808
+class 1 -- Precision: 0.9400 Recall: 0.9366
+class 2 -- Precision: 0.9580 Recall: 0.9528
+class 3 -- Precision: 0.9843 Recall: 0.9789
+Epoch 4 train:   0%|          | 0/200 [00:00<?, ?it/s]
+Epoch 4 -- Loss: 0.0807 Acc: 0.9702
+class 0 -- Precision: 0.9780 Recall: 0.9856
+class 1 -- Precision: 0.9520 Recall: 0.9488
+class 2 -- Precision: 0.9629 Recall: 0.9612
+class 3 -- Precision: 0.9906 Recall: 0.9851
+Epoch 5 train:   0%|          | 0/200 [00:00<?, ?it/s]
+Epoch 5 -- Loss: 0.0734 Acc: 0.9727
+class 0 -- Precision: 0.9809 Recall: 0.9891
+class 1 -- Precision: 0.9584 Recall: 0.9511
+class 2 -- Precision: 0.9635 Recall: 0.9639
+class 3 -- Precision: 0.9905 Recall: 0.9867
+Epoch 6 train:   0%|          | 0/200 [00:00<?, ?it/s]
+Epoch 6 -- Loss: 0.0599 Acc: 0.9775
+class 0 -- Precision: 0.9876 Recall: 0.9932
+class 1 -- Precision: 0.9632 Recall: 0.9575
+class 2 -- Precision: 0.9673 Recall: 0.9679
+class 3 -- Precision: 0.9934 Recall: 0.9912
+Epoch 7 train:   0%|          | 0/200 [00:00<?, ?it/s]
+Epoch 7 -- Loss: 0.0558 Acc: 0.9798
+class 0 -- Precision: 0.9884 Recall: 0.9927
+class 1 -- Precision: 0.9664 Recall: 0.9615
+class 2 -- Precision: 0.9696 Recall: 0.9719
+class 3 -- Precision: 0.9965 Recall: 0.9930
+Epoch 8 train:   0%|          | 0/200 [00:00<?, ?it/s]
+Epoch 8 -- Loss: 0.0549 Acc: 0.9794
+class 0 -- Precision: 0.9896 Recall: 0.9940
+class 1 -- Precision: 0.9655 Recall: 0.9610
+class 2 -- Precision: 0.9695 Recall: 0.9689
+class 3 -- Precision: 0.9948 Recall: 0.9938
+Epoch 9 train:   0%|          | 0/200 [00:00<?, ?it/s]
+Epoch 9 -- Loss: 0.0500 Acc: 0.9813
+class 0 -- Precision: 0.9907 Recall: 0.9952
+class 1 -- Precision: 0.9683 Recall: 0.9639
+class 2 -- Precision: 0.9717 Recall: 0.9720
+class 3 -- Precision: 0.9962 Recall: 0.9940
+Epoch 10 train:   0%|          | 0/200 [00:00<?, ?it/s]
+Epoch 10 -- Loss: 0.0480 Acc: 0.9816
+class 0 -- Precision: 0.9920 Recall: 0.9963
+class 1 -- Precision: 0.9699 Recall: 0.9639
+class 2 -- Precision: 0.9697 Recall: 0.9718
+class 3 -- Precision: 0.9964 Recall: 0.9943
+  0%|          | 0/200 [00:00<?, ?it/s]
+-- Loss: 0.0530 Acc: 0.9786
+class 0 -- Precision: 0.9896 Recall: 0.9932
+class 1 -- Precision: 0.9757 Recall: 0.9477
+class 2 -- Precision: 0.9568 Recall: 0.9800
+class 3 -- Precision: 0.9941 Recall: 0.9934
+[[9.932e+03 3.100e+01 1.000e+00 3.600e+01]
+ [8.200e+01 9.477e+03 4.220e+02 1.900e+01]
+ [7.000e+00 1.880e+02 9.800e+03 5.000e+00]
+ [1.700e+01 2.100e+01 2.800e+01 9.934e+03]]

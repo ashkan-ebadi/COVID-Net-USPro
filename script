@@ -33,7 +33,7 @@ for shot in "${shots[@]}"; do
             for model in "${models[@]}"; do
                 out_file="probType-${probType}-model-${model}-shots-${shot}.txt"
                 echo $out_file
-                time python3 experiments.py --FSlist $probType,$shot,$shot,$epoch,200,$probType,$shot,$shot,200 --classificationType $probType --model $model --LUSS 1 --bs $batch_size > "$out_file"
+                time python3 experiment.py --FSlist $probType,$shot,$shot,$epoch,200,$probType,$shot,$shot,200 --classificationType $probType --model $model --LUSS 1 --bs $batch_size > "$out_file"
             done 
         done 
     done
