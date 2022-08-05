@@ -27,7 +27,7 @@ def train(model, optimizer, prob_type, batch_size, train_x, train_y, n_way, n_su
   """
 
   scheduler = optim.lr_scheduler.ReduceLROnPlateau(optimizer, 'min', patience=3)
-  early_stopping = EarlyStopping(3, 0, init_loss)
+  early_stopping = EarlyStopping(5, 0, init_loss)
   epoch = 0 #epochs trained so far
 
   # CUDA for PyTorch
