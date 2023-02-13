@@ -13,6 +13,9 @@ The main requirements include:
 - Scikit-Learn
 - Matplotlib
 
+## Basic Usage 
+For an example on how to use COVID-Net USPro, please refer to example notebook here: protonet/protonet_example.ipynb. 
+
 ## COVID-US Dataset 
 The COVIDx-US dataset is an open-access benchmark dataset of ultrasound imaging data for AI-driven COVID-19 analytics. The github repo can be accessed here: https://github.com/nrc-cnrc/COVID-US. For the complete description, please refer to [paper](https://pubmed.ncbi.nlm.nih.gov/35866396/). 
 
