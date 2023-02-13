@@ -166,6 +166,7 @@ class ProtoNet(nn.Module):
       'target_class': target_inds_tens.squeeze(), 
       'y_true_np': y_true_np, 
       'y_pred_np': y_pred_np, 
+      'x_query': x_query, 
       'accuracy': accuracy, 
       'recall': recall,
       'precision': precision,
