@@ -20,7 +20,7 @@ def test(model, prob_type, batch_size, test_x, test_y, n_way, n_support, n_query
   """
   # CUDA for PyTorch
   use_cuda = torch.cuda.is_available()
-  device = torch.device("cuda:7" if use_cuda else "cpu")
+  device = torch.device("cuda:1" if use_cuda else "cpu")
   torch.backends.cudnn.benchmark = True
 
   # Order the data in the following class: 

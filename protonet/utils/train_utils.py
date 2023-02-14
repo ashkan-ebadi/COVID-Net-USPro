@@ -11,6 +11,7 @@ class EarlyStopping():
                not improving
         :param min_delta: minimum difference between new loss and old loss for
                new loss to be considered as an improvement
+        :param init_loss: track current loss values and monitor loss improvements. 
         """
         self.patience = patience
         self.min_delta = min_delta

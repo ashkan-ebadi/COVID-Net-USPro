@@ -15,11 +15,18 @@ def test_gradcam(model, test_x, test_y, n_way, n_support, n_query, test_episode)
       n_support (int): number of labeled examples per class in the support set
       n_query (int): number of labeled examples per class in the query set
       test_episode (int): number of episodes to test on
+  Returns: 
+      true_pos (tensor): True positive images tensor
+      true_pos_possibility (tensor): Probabilities computed for classifying the true positive images. 
+      true_neg (tensor): True negative images tensor
+      true_neg_possibility (tensor): Probabilities computed for classifying the true negative images. 
+      false_pos (tensor): False positive images tensor 
+      false_neg (tensor): False negative images tensor 
   """
   use_cuda = torch.cuda.is_available()
-  device = torch.device("cuda:7" if use_cuda else "cpu")
+  device = torch.device("cuda:1" if use_cuda else "cpu")
   
-  probType = 2
+  probType = 2 ## set to binary classification condition 
   target_index = 1
   opposing_target_index = 0 
 

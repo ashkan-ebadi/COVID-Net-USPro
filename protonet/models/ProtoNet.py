@@ -108,9 +108,9 @@ class ProtoNet(nn.Module):
     Computes loss, accuracy and output for classification task
     Args:
       sample (torch.Tensor): shape (n_way, n_support+n_query, (dim)) 
-      device: set to a specific CUDA when trained or remote. On local set to CPU. 
+      device: set to a specific CUDA when trained on server. On local set to CPU. 
     Returns:
-      torch.Tensor: shape(10), loss, y_hat, target_class, accuracy, precision, recall, 
+      torch.Tensor: shape(11), loss, y_hat, target_class, accuracy, precision, recall, 
                                 y_true_np, y_pred_np, 
                                 confusion_matrix, probabilities, 
     """

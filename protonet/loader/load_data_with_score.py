@@ -6,7 +6,7 @@ import multiprocessing as mp
 
 def read_subdir_image(class_directory_path, class_directory_name, target_vid_names):
     """
-    Load image data from a  given a directory. 
+    Load image data from target video names from a given a directory. 
     Args:
         class_directory_path: directory with images separated into class. Each class is a different folder.
         class_directory_name: name of the classes. 

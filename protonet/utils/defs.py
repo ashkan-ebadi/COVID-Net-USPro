@@ -14,6 +14,7 @@ def extract_sample(n_way, n_support, n_query, datax, datay, prob_type, include_C
   Returns:
       (dict) of:
         (torch.Tensor): sample of images. Size (n_way, n_support+n_query, (dim))
+        (array): sample_class 
         (int): n_way
         (int): n_support
         (int): n_query
