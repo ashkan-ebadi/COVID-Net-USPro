@@ -1,6 +1,6 @@
-# COVID-Net USPro: Prototypical Network for COVID Ultrasound Image Classification 
+# COVID-Net USPro: An Explainable Few-Shot Deep Prototypical Network for COVID-19 Screening using Point-of-Care Ultrasound 
 
-Implementation of a prototypical network for few-shot learning on COVIDx-US, an ultrasound image dataset that contains image types: Normal, COVID, Pneumonia and Other. 
+The COVID-Net USPro is an explainable few-shot deep prototypical network that is designed to detect COVID-19 cases from very few ultrasound images. As part of the COVID-Net initiative, and to promote reproducibility and foster further innovation, the network is open-sourced and available to the public. 
 
 ## Requirements 
 For complete environment setup, please refer to the environment.yml file in this repository. 
